@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        td, th {
+            border: 1px solid #000000;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #bebdbd;
+            color: rgb(0, 0, 0);
+        }
+        tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+        table {
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        a:hover {
+            color: yellow;
+            text-decoration: underline;
+        }
+        caption {
+            background-color: lightgray;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+        .amarelo {
+            color: #c5d306;
+        }
+        .green {
+            color: #008000;
+        }
+        .blue {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Unidades Federativas do Brasil</caption>
+        <tr>
+            <th>Estados</th>
+            <th>Abreviação</th>
+            <th>Capital</th>
+            <th>Área<br>(Km)</th>
+            <th>Total de Pessoas</th>
+            <th><a href="https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_IDH">IDH</a></th>
+        </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Acre">Acre</a></td>
+                <td>AC</td>
+                <td>Rio Branco</td>
+                <td>164 122,2</td>
+                <td>795 195</td>
+                <td class="amarelo">0,663</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Alagoas">Alagoas</a></td>
+                <td>AL</td>
+                <td>Maceió</td>
+                <td>27 767,7</td>
+                <td>3 327 551</td>
+                <td class="amarelo">0,631</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Amap%C3%A1">Amapá</a></td>
+                <td>AP</td>
+                <td>Macapá</td>
+                <td>142 814,6</td>
+                <td>756 500</td>
+                <td class="green">0,708</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Amazonas">Amazonas</a></td>
+                <td>AM</td>
+                <td>Manaus</td>
+                <td>1 570 745,7</td>
+                <td>3 893 763</td>
+                <td class="amarelo">0,674</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Bahia">Bahia</a></td>
+                <td>BA</td>
+                <td>Salvador</td>
+                <td>564 692,7</td>
+                <td>15 150 143</td>
+                <td class="amarelo">0,660</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Cear%C3%A1">Ceará</a></td>
+                <td>CE</td>
+                <td>Fortaleza</td>
+                <td>148 825,6</td>
+                <td>148 825,6</td>
+                <td class="amarelo">0,682</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Distrito_Federal_(Brasil)">Distrito Federal</a></td>
+                <td>DF</td>
+                <td>Brasília</td>
+                <td>5 822,1</td>
+                <td>2 867 869</td>
+                <td class="blue">0,824</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Esp%C3%ADrito_Santo_(estado)">Espirito Santo</a></td>
+                <td>ES</td>
+                <td>Vitória</td>
+                <td>46 077,5</td>
+                <td>3 894 899</td>
+                <td class="green">0,740</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Goi%C3%A1s">Goiás</a></td>
+                <td>GO</td>
+                <td>Goiania</td>
+                <td>340 086,7</td>
+                <td>6 551 322</td>
+                <td class="green">0,735</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Maranh%C3%A3o">Maranhão</a></td>
+                <td>MA</td>
+                <td>São Luis</td>
+                <td>331 983,3</td>
+                <td>6 861 924</td>
+                <td class="amarelo">0,639</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Mato_Grosso">Mato Grosso</a></td>
+                <td>MT</td>
+                <td>Cuiaba</td>
+                <td>903 357,9</td>
+                <td>3 236 578</td>
+                <td class="green">0,725</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Mato_Grosso_do_Sul">Mato Grosso do Sul</a></td>
+                <td>MS</td>
+                <td>Campp Grande</td>
+                <td>357 125,0</td>
+                <td>2 630 098</td>
+                <td class="green">0,729</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Minas_Gerais">Minas Gerais</a></td>
+                <td>BH</td>
+                <td>Belo Horizonte</td>
+                <td>586 528,3</td>
+                <td>20 777 672</td>
+                <td class="green">0,731</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Par%C3%A1">Pará</a></td>
+                <td>PA</td>
+                <td>Belém</td>
+                <td>1 247 689,5</td>
+                <td>8 101 180</td>
+                <td class="amarelo">0,646</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Para%C3%ADba">Paraíba</a></td>
+                <td>JP</td>
+                <td>João Pessoa</td>
+                <td>56 439,8</td>
+                <td>3 950 359</td>
+                <td class="amarelo">0,658</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Paran%C3%A1">Paraná</a></td>
+                <td>PR</td>
+                <td>Curitiba</td>
+                <td>199 314,9</td>
+                <td>11 112 062</td>
+                <td class="green">0,749</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Pernambuco">Pernambuco</a></td>
+                <td>PB</td>
+                <td>Recife</td>
+                <td>98 311,6</td>
+                <td>9 297 861</td>
+                <td class="amarelo">0,673</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Piau%C3%AD">Piauí</a></td>
+                <td>PI</td>
+                <td>Teresina</td>
+                <td>251 529,2</td>
+                <td>3 198 185</td>
+                <td class="amarelo">0,646</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Rio_de_Janeiro_(estado)">Rio de Janeiro</a></td>
+                <td>RJ</td>
+                <td>Rio de Janeiro</td>
+                <td>43 696,1</td>
+                <td>16 497 395</td>
+                <td class="green">0,761</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Rio_Grande_do_Norte">Rio Grande do Norte</a></td>
+                <td>RN</td>
+                <td>Natal</td>
+                <td>52 796,8</td>
+                <td>3 419 550</td>
+                <td class="amarelo">0,684</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Rio_Grande_do_Sul">Rio Grande do Sul</a></td>
+                <td>RS</td>
+                <td>Porto Alegre</td>
+                <td>281 748,5</td>
+                <td>11 228 091</td>
+                <td class="green">0,746</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Rond%C3%B4nia">Rondônia</a></td>
+                <td>RO</td>
+                <td>Porto Velho</td>
+                <td>237 576,2</td>
+                <td>1 755 015</td>
+                <td class="amarelo">0,690</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Roraima">Roraima</a></td>
+                <td>RR</td>
+                <td>Boa Vista</td>
+                <td>224 299,0</td>
+                <td>500 826</td>
+                <td class="green">0,707</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Santa_Catarina"> Santa Catarina</a> </td>
+                <td>SC</td>
+                <td>Florianópolis</td>
+                <td>95 346,2</td>
+                <td>6 734 568</td>
+                <td class="green">0,774</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo_(estado)">São Paulo</a></td>
+                <td>SP</td>
+                <td>São Paulo</td>
+                <td>248 209,4</td>
+                <td>44 169 350</td>
+                <td class="green">0,783</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Sergipe">Sergipe</a></td>
+                <td>SE</td>
+                <td>Aracaju</td>
+                <td>21 910,3</td>
+                <td>2 227 294</td>
+                <td class="amarelo">0,665</td>
+            </tr>
+            <tr>
+                <td><a href="https://pt.wikipedia.org/wiki/Tocantins">Tocantins</a></td>
+                <td>TO</td>
+                <td>Palmas</td>
+                <td>277 620,9</td>
+                <td>1 502 759</td>
+                <td class="amarelo">0,699</td>
+            </tr>
+        
+    </table>
+</body>
+</html>
